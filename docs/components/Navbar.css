@@ -1,0 +1,135 @@
+.navbar {
+  display: none;
+}
+
+.nav-menu {
+  background-color: #cbdaff;
+  width: 250px;
+  height: 100vh;
+
+  justify-content: center;
+  position: fixed;
+  top: 0;
+}
+
+.logo {  
+  width: 140px;
+  margin-left: 8px;
+  margin-top: 3rem;
+  color:#252859;
+}
+
+.ResLogo {
+  width: 160px;
+}
+.mytitle {
+  font-size: 1.2rem;
+  color: #1a202c;
+  margin-top: 1.5rem;
+}
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 13px;
+  list-style: none;
+  height: 60px;
+}
+
+.lists {
+  line-height: 41pt;
+}
+
+.myactive a {
+  color: #ff9b00 !important;
+}
+.nav-text a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  width: auto;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+.nav-text svg {
+  color: #333 !important;
+}
+
+.nav-text svg:hover {
+  color: #333 !important;
+}
+.myactive svg {
+  color: #333 !important;
+}
+
+.nav-text a:hover {
+  color: #ff9b00;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  color: black;
+  height: 40px;
+}
+
+span {
+  margin-left: 16px;
+}
+.contento {
+  margin-left: 180px;
+}
+.topbar {
+  width: auto;
+  position: fixed;
+  margin-left: 50em;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  transition: all 700ms ease 200ms;
+  transition-property: all;
+  transition-duration: 375ms;
+  transition-timing-function: ease;
+  transition-delay: 20ms;
+  z-index: 10;
+}
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  .contento {
+    margin-left: 0px;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    margin-top: -25px;
+    position: fixed;
+    padding: 0.5rem 0rem;
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    transition: all 700ms ease 200ms;
+    transition-property: all;
+    transition-duration: 375ms;
+    transition-timing-function: ease;
+    transition-delay: 20ms;
+    z-index: 10;
+  }
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+
+  .brand {
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .topbar {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.lists2 {
+  line-height: 41pt;
+  text-decoration: none;
+}
+.lists2 span {
+  font-weight: 600;
+  color: #ff9b00;
+}
