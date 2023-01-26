@@ -39,6 +39,7 @@
     "styletron-react": "^5.2.0"
   },
   "dependencies": {
+    "@fontsource/poppins": "^4.5.9",
     "atomize": "^1.0.28",
     "axios": "^0.27.2",
     "prismjs": "^1.28.0",
@@ -46,6 +47,7 @@
     "react-axios": "^2.0.6",
     "react-countup": "^6.2.0",
     "react-hook-form": "^7.32.1",
+    "react-iconly": "^2.2.5",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-syntax-highlighter": "^15.5.0",

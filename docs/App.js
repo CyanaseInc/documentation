@@ -1,18 +1,18 @@
 import React from 'react';
 import { Fragment } from "react/cjs/react.production.min";
-import ScrollToTop from "./components/routerScroll";
+import ScrollToTop from "../src/components/routerScroll";
 import { Provider as StyletronProvider, DebugEngine } from "styletron-react";
 import { Client as Styletron } from "styletron-engine-atomic";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { StyleReset, ThemeProvider } from "atomize";
-import Drawer from './components/Drawer';
-import Home from './pages/Home';
-import Account from './pages/Account';
-import Auth from './pages/Auth';
-import Inline from './pages/Inline';
-import Detail from './pages/Detail';
-import Deposit from './pages/Deposit';
-import Products from './pages/Products';
+import Drawer from '../src/components/Drawer';
+import Home from '../src/pages/Home';
+import Features from '../src/pages/Features';
+import Auth from '../src/pages/Auth';
+import Started from '../src/pages/Started';
+import Detail from '../src/pages/Detail';
+import Deposit from '../src/pages/Deposit';
+import Products from '../src/pages/Products';
 const debug =
   process.env.NODE_ENV === "production" ? void 0 : new DebugEngine();
 // 1. Create a client engine instance
@@ -40,8 +40,8 @@ function App() {
       <br></br><br></br><br></br>
       <Routes>
           <Route path='/' exact  element={<Home/>} />
-          <Route path='/Account' element={<Account/>} />
-          <Route path='/Inline' element={<Inline/>} />
+          <Route path='/Features' element={<Features/>} />
+          <Route path='/Started' element={<Started/>} />
           <Route path='/Products' element={<Products/>} />
           <Route path='/Auth' element={<Auth/>} />
           <Route path='/Detail' element={<Detail/>} />

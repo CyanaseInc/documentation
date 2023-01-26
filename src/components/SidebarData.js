@@ -11,26 +11,27 @@ export const SidebarData = [
     cName: 'nav-text',
     active:'intro'
   },  {
-    title: 'One tap Check-Out',
-    path: '/Inline',
+    title: 'Get started',
+    path: '/Started',
     icon: <IoIcons.IoMdHelpCircle />,
     cName: 'nav-text',
     active:'one'
   },
   {
-    title: 'Creating user account',
-    path: '/Account',
-    icon: <IoIcons.IoIosPaper />,
-    cName: 'nav-text',
-    active:'acc'
-  },
-  {
     title: 'API features',
-    path: '/Products',
+    path: '/Features',
     icon: <FaIcons.FaCartPlus />,
     cName: 'nav-text',
     active:'products'
   },
+  {
+    title: 'Investment products',
+    path: '/Products',
+    icon: <IoIcons.IoIosPaper />,
+    cName: 'nav-text',
+    active:'acc'
+  },
+ 
   {
     title: 'User auth',
     path: '/Auth',

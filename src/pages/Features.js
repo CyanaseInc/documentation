@@ -1,7 +1,9 @@
 import React from 'react';
 import { StyleReset, ThemeProvider,Div,Container } from "atomize";
-function Inline() {
+
+function Features() {
   return (
+    <>
     <Container>
       <div className="contento">
         <div className='home'>
@@ -10,7 +12,8 @@ function Inline() {
                       fintechs to integrate investing products into their products using our API.</h1>
     </div></div>
       </Container>
+      </>
   );
 }
 
-export default Inline;
+export default Features;

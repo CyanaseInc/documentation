@@ -11,3 +11,14 @@
   font-weight: 600;
   color: #ff9b00;
 }
+
+.small{
+  color: #828282;
+  font-weight: 400;
+}
+.icon_svg svg{
+height: 80px;
+width: 80px;
+padding: 1rem;
+
+}
